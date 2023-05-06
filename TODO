@@ -1,0 +1,2 @@
+See if it's worth giving the agent a scaled out 128x128 / higher map of just the types of tiles, so it can better see what's in the world.
+    - IE only shows differences between ground, water, iron, coal, copper, stone, and placed_objects

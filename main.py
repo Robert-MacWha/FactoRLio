@@ -1,9 +1,16 @@
-import factorio_rcon
+from src import Agent, rcon_get_state, rcon_act, rcon_enable_botmode, rcon_disable_botmode, rcon_reset_position
 
-SERVER_IP = "127.0.0.1"
-RCON_PORT = 41941
-RCON_PASSWORD = "rcon"
-client = factorio_rcon.RCONClient(SERVER_IP, RCON_PORT, RCON_PASSWORD)
+# agent = Agent()
 
-response = client.send_command("/c remote.call('windfish', 'test', 'Hello World!')")
-print(response)
+# rcon_disable_botmode()
+# while True:
+#     # state = rcon_get_state()
+#     # print(state)
+    
+#     action = agent.act()
+
+#     rcon_act(5, action[1])
+
+rcon_disable_botmode()
+rcon_reset_position()
+rcon_act(11, 4)
