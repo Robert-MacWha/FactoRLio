@@ -1,0 +1,8 @@
+{
+    "name": "windfish", 
+	"version": "0.0.1",
+	"title": "Windfish",
+	"author": "Robert MacWha",
+	"factorio_version": "1.1", 
+	"description": "Interface mod between a factorio server and instance of factoRLio bot client"
+}
